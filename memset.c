@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 char*
 ft_memset( char c, char*str)
 {
@@ -11,12 +9,4 @@ ft_memset( char c, char*str)
                 i++;
         }
         return str;
-}
-int
-main()
-{
-        char c = '1';
-        char abc[11] = "0987654321";
-        int m = *ft_memset(c , abc);
-        printf("%d", m);
 }
