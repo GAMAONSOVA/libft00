@@ -1,4 +1,4 @@
-char
+char*
 ft_memcpy(char *str, char *mtr, int a)
 {
         int i = 0;
