@@ -1,5 +1,5 @@
 char*
-ft_memmove(char *source0 , char *source1, int a)
+ft_memmove( void *source0 , void *source1, int a)
 {
 	int i = 0;
 	int j = 0;
