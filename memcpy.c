@@ -1,5 +1,5 @@
 char*
-ft_memcpy(char *str, char *mtr, int a)
+ft_memcpy(void *str, void *mtr, int a)
 {
         int i = 0;
         int l = 0;
