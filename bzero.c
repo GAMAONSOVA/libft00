@@ -1,4 +1,4 @@
-char
+char*
 ft_bzero(int a,char *str)
 {
 	int i = 0;
