@@ -1,13 +1,16 @@
-char*
-ft_memcpy(void *str, void *mtr, int a)
-{
-        int i = 0;
-        int l = 0;
+#include <stddef.h>
 
-        while(mtr[l] != a)
+void *
+memcpy( void * destptr, const void * srcptr, size_t num )
+{
+        size_t i = 0;
+        char *d = destptr;
+        char *s = srcptr;
+
+        while( i != num)
         {
-                mtr[l] = str[i];
+                d[i] = s[i];
                 i++;
-                l++;
         }
+        return d;
 }
