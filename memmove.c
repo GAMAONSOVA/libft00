@@ -1,8 +1,11 @@
-char*
-ft_memmove( void *source0 , void *source1, int a)
+#include <string.h>
+#include <stddef.h>
+
+void*
+ft_memmove( void *source0 , void *source1, size_t a)
 {
-	int i = 0;
-	int j = 0;
+	size_t i = 0;
+	unsigned char *s = 
 
 	while(source1[j] != a)
 	{
