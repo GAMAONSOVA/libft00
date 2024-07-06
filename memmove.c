@@ -2,15 +2,15 @@
 #include <stddef.h>
 
 void*
-ft_memmove( void *source0 , void *source1, size_t a)
+ft_memmove( void *dest, void *src, size_t a)
 {
 	size_t i = 0;
-	unsigned char *s = 
+	unsigned char *s = src;
+	unsigned char *d = dest;
 
-	while(source1[j] != a)
+	if(*s < *d)
 	{
-		source0[i] = source1[j];
-		i++;
-		j++;
+		
 	}
+	
 }
