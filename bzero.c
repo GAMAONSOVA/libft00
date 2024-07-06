@@ -1,9 +1,11 @@
-char*
-ft_bzero(int a,char *str)
-{
-	int i = 0;
+#include <string.h>
 
-	while(str[i] != a)
+void
+ft_bzero(void *str, size_t a)
+{
+	size_t i = 0;
+
+	while(i != a)
 	{
 		str[i] = 0;
 		i++;
