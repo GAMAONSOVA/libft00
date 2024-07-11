@@ -1,9 +1,11 @@
-char*
-ft_memset( char c, char*str)
-{
-        int i=0;
+#include <stddef.h>
 
-        while(str[i] != 0)
+void *
+ft_memset(void *s, int c, size_t n)
+{
+        size_t i=0;
+
+        while(i != n)
         {
                 str[i] = c;
                 i++;
